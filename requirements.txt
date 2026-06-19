@@ -1,0 +1,7 @@
+Flask>=3.0
+Flask-SQLAlchemy>=3.1
+Flask-Cors>=4.0
+PyJWT>=2.8
+psycopg2-binary>=2.9     # driver de PostgreSQL (Supabase / UCR)
+python-dotenv>=1.0       # opcional: carga el archivo .env en desarrollo
+gunicorn>=21.0           # servidor para producción (Render / Railway)
